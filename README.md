@@ -1,8 +1,14 @@
 # Binary-Search-Tree
 two classes - binaryserachtree and a movie as node calss
 This program can read in CSV files and sort data in a binary tree in alphabetical order and you can retrieve movie titles in the given ranges
-
-
+The CSV format: movieID, title (release year), genre1|genre2|genre3
+The Movie.csv file has specials String likes * 11,"American President, The (1995)",Comedy|Drama|Romance
+					     * 984,"Pompatus of Love, The (1996)",Comedy|Drama
+					     * 780,Independence Day (a.k.a. ID4) (1996)
+These formats can be taken care of but for the String "American President, The (1995)", the program just retrieve the title as 	American President, The. it DOES NOT change it to The American President.
+					     
+					     
+					     
 in Movie Class: -with data fileds: title, release year, movieID and movies genres
                 -and one getter methhod to return the movie title
 
